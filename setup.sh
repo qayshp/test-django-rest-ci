@@ -61,3 +61,6 @@ cat <<DELIM | sed 's/^    //' >> ../.gitignore
     *.pyc
     staticfiles
 DELIM
+
+heroku create
+git push heroku master
