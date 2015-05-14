@@ -65,3 +65,6 @@ DELIM
 
 heroku create
 git push heroku master
+
+heroku run python manage.py syncdb
+# created admin superuser
