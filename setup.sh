@@ -10,7 +10,8 @@ DELIM
 #####################
 # https://devcenter.heroku.com/articles/getting-started-with-django
 #####################
-mkdir hellodjango && cd hellodjango
+# Should already be in a new directory. Whoops.
+# mkdir hellodjango && cd hellodjango
 virtualenv venv -p python3
 source venv/bin/activate
 
